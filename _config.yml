@@ -73,3 +73,6 @@ deploy:
 
 # Duo Shuo
 duoshuo_shortname: edwon
+
+# Baidu
+baidusitemap: true
