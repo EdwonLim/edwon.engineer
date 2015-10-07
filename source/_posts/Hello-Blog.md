@@ -17,3 +17,7 @@ categories:
 不为别的，只为技术的积累和沉淀。
 
 新地址: <http://edwon.engineer>
+
+{% centerquote %}
+Thank You & Enjoy It！
+{% endcenterquote %}

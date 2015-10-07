@@ -23,3 +23,7 @@ categories:
 8. 使用Flash，可以用Flash与服务器创建Tcp链接，激活的页面与服务端及时同步，非激活页面同步时间长。
 
 最后，感谢各位的对技术的热情和毫无保留的解答疑问。
+
+{% centerquote %}
+Thank You & Enjoy It！
+{% endcenterquote %}
