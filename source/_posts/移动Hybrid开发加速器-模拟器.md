@@ -88,19 +88,20 @@ Subcommands:
 ```
 open -a "iOS Simulator" --args -CurrentDeviceUDID {SimulatorID}
 ```
+
 而 `xcrun simctl list` 来显示模拟器的列表来查看ID。
 
 ##### Android 模拟器
 
-对于 Google 提供的模拟器，其性能，和效率真不敢恭维，连 Android 开发人员都嫌弃。
+对于 Google 提供的模拟器，其性能和效率真不敢恭维，连 Android 开发人员都嫌弃。
 
 但是，一个号称最快Android模拟器的应用横空出世，让利用Andoird模拟器调试不是梦，那就是 **Genymotion**。
 
-Genymotion 提供免费版本，其免费的功能，足够前端开发人员用于调试，提供 Mac 和 Windows 版本。（收费功能主要是和IDE的结合、相机等高级功能的模拟。）
+Genymotion 提供免费版本，其免费的功能，足够前端开发人员用于调试，提供 Mac 和 Windows 版本。（收费功能主要是和IDE的结合、相机等高级功能的模拟等。）
 
 Genymotion 利用 VisualBox 来运行 Android 系统，用电脑的GPU进行渲染，其效率可想而知。
 
-![图示](http://ww4.sinaimg.cn/bmiddle/71c50075gw1ewxb8swnxlj21kw10c7ds.jpg)
+![Genymotion](http://ww4.sinaimg.cn/bmiddle/71c50075gw1ewxb8swnxlj21kw10c7ds.jpg)
 
 如图所示，用户可以下载不同机型的模拟器的，主流的Google、HTC、三星等的机型都被收录，用户可以直接下载使用。
 
@@ -112,9 +113,13 @@ Genymotion 利用 VisualBox 来运行 Android 系统，用电脑的GPU进行渲�
 
 App Store 上的和 ipa 包都不能装到模拟器上。那什么包可以装上呢？为模拟器定制的包可以。
 
-iOS开发者需要通过 `xrunbuild` 命令来编译 iOS 项目时，加上 `-destination='platform=iphonesimulator'`。
+iOS开发者需要通过 `xrunbuild` 命令来编译 iOS 项目时，加上参数即可。
 
-用此命令打出的App，可以安装到模拟器上。
+```
+-destination='platform=iphonesimulator'
+```
+
+用此命令构建出的App，可以安装到模拟器上。
 
 ##### Android
 
