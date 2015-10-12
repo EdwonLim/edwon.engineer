@@ -3,9 +3,7 @@ date: 2015-10-03 22:00:14
 tags:
  - hello
  - 随笔
-categories:
- - hello
- - 随笔
+categories: 随笔
 ---
 
 又开始写博客了。『又』既是一个新的开始，又充斥着种种无奈。
