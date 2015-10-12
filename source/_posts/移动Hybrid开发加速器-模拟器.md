@@ -7,12 +7,12 @@ categories: 移动开发
 ---
 
 {% centerquote %}
-Hybrid App（混合模式移动应用）是指介于web-app、native-app这两者之间的app，兼具『Native App良好用户交互体验的优势』和『Web App跨平台开发的优势』。
+Hybrid App（混合模式移动应用）是指介于Web App、Native App这两者之间的App，兼具『Native App良好用户交互体验的优势』和『Web App跨平台开发的优势』。
 {% endcenterquote %}
 
 #### 移动 Hybrid 开发遇到的调试问题
 
-随着 Hybrid 思想的推广和其技术的日益成熟，以及 PhoneGap、React Native、Titanium 以及咱公司的 Hy 这些 Hybrid 形式框架的推出，开发者使用这项技术创建 Hybrid App 的场景越来越多。
+随着 Hybrid 思想的推广和其技术的日益成熟，以及 Cordova(PhoneGap)、React Native、Ionic、Titanium 以及我厂的 Hy 这些 Hybrid 形式框架的推出，开发者使用这项技术创建 Hybrid App 的场景越来越多。
 
 与此同时，在开发中遇到的问题也逐渐显现，由于前端代码需要和Native代码进行逻辑上的交互，而且开发人员都是前端工程师，因此『调试异常繁琐』这个问题尤为显著。
 
@@ -135,7 +135,7 @@ iOS开发者需要通过 `xrunbuild` 命令来编译 iOS 项目时，加上参�
 
 使用模拟器开发，可以让前端开发效率更高，同时，在模拟器上调试过后，在真机上调试时，出现的问题会很少，大幅减少真机使用率，使真机资源有效利用。
 
-
+这篇文章，主要介绍了模拟器的现状、简单的使用方式等一些比较基础的知识，而更为详细的模拟器使用说明，请期待笔者之后的文章。
 
 {% centerquote %}
 Thank You & Enjoy It！
